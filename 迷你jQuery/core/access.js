@@ -24,7 +24,7 @@ define([
 			return 1111
 			//如果只是单个值
 		} else if (value !== undefined) {
-
+                       alert(1);
 			//检测是否为可以执行函数
 			if (!aAaron.isFunction(value)) {
 				raw = true;
